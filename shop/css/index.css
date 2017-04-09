@@ -1,0 +1,16 @@
+#header{
+    background: url("../img/banner.jpg") no-repeat center;
+    height: 600px;
+}
+#login,#header h1{
+    color: #fff;
+}
+#cart{
+    width: 260px;
+    height: 60px;
+    background: #000000;
+    opacity: 0.5;/*取值范围0~1*/
+    filter:alpha(opacity=50);/*取值范围0~100*/
+    color: #fff;
+
+}
