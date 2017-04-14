@@ -12,5 +12,11 @@
     opacity: 0.5;/*取值范围0~1*/
     filter:alpha(opacity=50);/*取值范围0~100*/
     color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
 
+}
+#header img{
+    vertical-align: middle;
 }
