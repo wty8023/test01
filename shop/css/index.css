@@ -1,22 +1,46 @@
 #header{
-    background: url("../img/banner.jpg") no-repeat center;
+    background: url(../img/banner.jpg) no-repeat center;
     height: 600px;
 }
-#login,#header h1{
+#login, #header h1{
     color: #fff;
 }
 #cart{
     width: 260px;
-    height: 60px;
-    background: #000000;
-    opacity: 0.5;/*ȡֵ��Χ0~1*/
-    filter:alpha(opacity=50);/*ȡֵ��Χ0~100*/
+    height: 30px;
+    background: #000;
+    opacity: .5;/* 取值范围0~1 */
+    filter: alpha(opacity=50);/* ie下  取值范围0~100 */
     color: #fff;
     text-align: center;
+    line-height: 30px;
+    /*行间距，对于单行文字，行高等于高可以让单行文字垂直居中显示*/
     padding: 10px 20px;
     cursor: pointer;
-
 }
 #header img{
     vertical-align: middle;
+}
+#header .float{
+    float: left;
+}
+#aa{
+    height: 50px;
+}
+#nav{
+    float: right;
+    width: 570px;
+}
+li{
+    list-style: none;
+    float: left;
+    width: 100px;
+    height: 30px;
+    background: #cccccc;
+    color: #fff;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+
 }

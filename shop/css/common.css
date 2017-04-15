@@ -5,11 +5,13 @@
 }
 a{
     text-decoration: none;
+    /*下划线*/
 }
 img{
     border: 0;
 }
 li{
+    /*列表的点和数字*/
     list-style: none;
 }
 /*重置结束*/
