@@ -24,7 +24,7 @@ div.float#cart{
     padding: 10px 20px;
     cursor: pointer;
     margin-top: 25px;
-    line-height: 0;
+    line-height: 30px;
     float: right;
 }
 #header img{
