@@ -40,7 +40,7 @@ div.float#cart{
     height: 100px;
     line-height: 100px;
 }
-#nav li{
+#nav>li{
     width: 190px;
     height: 40px;
     background: #fa558f;
@@ -48,7 +48,7 @@ div.float#cart{
     text-align: center;
     line-height: 40px;
 }
-#nav li:hover{
+#nav>li:hover{
     background: #3c3b3b;
 }
 #nav a{
@@ -69,7 +69,19 @@ div.float#cart{
 }
 #makeup:hover #submenu{
     display: block;
-}
+}#slist{
+    float: left;
+    text-align: center;
+ }
+ #slist a{
+
+     color: #000000;
+ }
+ #slist>li{
+     width: 228px;
+     text-decoration: underline;
+     float: left;
+ }
 
 
 
