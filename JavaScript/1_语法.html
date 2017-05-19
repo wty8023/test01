@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h1 id="hh">hhhhh</h1>
+
+    <!--<script src="common.js"></script>-->
+<script>
+    var oh1 = document.getElementById("hh");
+    console.log(oh1);
+    console.log("123abe"-"123");
+    var x=Math.random();
+    var y=Math.random();
+    x > y ? console.log("x=" + x):console.log("y=" + y);
+    var today = new Date();
+    var year = today.getFullYear();
+    console.log(today);
+    console.log(year);
+    if (year % 4 == 0 && year % 100 != 0 || year / 400 == 0)
+    {
+        console.log(year+ "是闰年")
+    }else
+    {
+        console.log(year+ "不是闰年")
+    }
+    var age = prompt("请输入");
+    age = parseInt(age);
+//    console.log(age);
+    if(age < 14){
+        console.log("儿童:年龄"+age)
+    }else if(age >= 14 && age <24){
+        console.log("青少年:年龄" + age)
+    }else if(age >= 24 && age <40){
+        console.log("青年：年龄" + age)
+    }else if(age >= 40 && age <60){
+        console.log("中年：年龄" + age)
+    }else if(age >= 60){
+        console.log("老年：年龄" + age)
+    };
+//    function(){
+//
+//        switch (day){
+//        case day == 1:
+//             console.log("星期一");
+//        case day == 2:
+//             console.log("星期二");
+//
+//        }
+//    }
+    </script>
+</body>
+</html>
