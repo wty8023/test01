@@ -26,20 +26,22 @@
     {
         console.log(year+ "不是闰年")
     }
-    var age = prompt("请输入");
-    age = parseInt(age);
-//    console.log(age);
-    if(age < 14){
-        console.log("儿童:年龄"+age)
-    }else if(age >= 14 && age <24){
-        console.log("青少年:年龄" + age)
-    }else if(age >= 24 && age <40){
-        console.log("青年：年龄" + age)
-    }else if(age >= 40 && age <60){
-        console.log("中年：年龄" + age)
-    }else if(age >= 60){
-        console.log("老年：年龄" + age)
-    };
+
+////年龄问题
+//    var age = prompt("请输入");
+//    age = parseInt(age);
+////    console.log(age);
+//    if(age < 14){
+//        console.log("儿童:年龄"+age)
+//    }else if(age >= 14 && age <24){
+//        console.log("青少年:年龄" + age)
+//    }else if(age >= 24 && age <40){
+//        console.log("青年：年龄" + age)
+//    }else if(age >= 40 && age <60){
+//        console.log("中年：年龄" + age)
+//    }else if(age >= 60){
+//        console.log("老年：年龄" + age)
+//    };
 //    function(){
 //
 //        switch (day){
@@ -50,6 +52,108 @@
 //
 //        }
 //    }
-    </script>
+
+
+//周几问题日期
+//    var day =parseInt(window.prompt("输入的一个数字(0~6)"));
+//    switch( day ) {
+//
+//        case 0:
+//            alert("星期天");
+//            console.log("周日");
+//            break;
+//            case 1 :
+//                    alert("星期一");
+//                    console.log("周一");
+//            break;
+//            case 2 :
+//                    alert("星期二");
+//                    console.log("周二");
+//            break;
+//            case 3 :
+//                    alert("星期三");
+//                    console.log("周三");
+//            break;
+//            case 4 :
+//                    alert("星期四");
+//                    console.log("周四");
+//            break;
+//            case 5 :
+//                    alert("星期五");
+//                    console.log("周五");
+//            break;
+//            case 6 :
+//                    alert("星期六");
+//                    console.log("周六");
+//            break;
+//        default:
+//                    alert("您输入的格式不对");
+//            break;
+//    }
+
+
+
+//阶层
+//    var i = 1;
+//    var sum = 1;
+//    do{
+//        sum=sum*i;i++;
+//    }while(i <= 10 );
+//    console.log("10!=" +sum);
+//    document.write("10!= " + sum);
+//
+//
+//    function factorial( y ) {
+//        var i= 1;
+//        var product= 1;
+//        while(i <= y){
+//            product = product * i;
+//            i++;
+//        }
+////        return product;
+//    }
+//    varsum=0;
+//    for(x=1;x<=10;x++){
+//        sum=sum + factorial(x);
+//    }
+//    document.write("1!+2!+3!+…..＋10！=" + sum);
+//    factorial(10);
+
+
+
+
+    for ( var num = 1;num <= 5 ;num++)
+    {
+        for(x = 1;x <= num;x++)
+        {
+            document.write(""+x);
+        }
+        document.write("<br>");
+    }
+
+    for(num = 5;num >= 1;num--)
+    {
+        for(x = 1;x <= num;x++)
+        {
+            document.write("&nbsp");
+        }
+        for(  var y = 5-num; y >= 0 ; y--)
+        {
+            document.write(" *");
+        }
+        document.write("<br>");
+    }
+
+
+
+
+
+
+
+
+
+
+
+</script>
 </body>
 </html>
