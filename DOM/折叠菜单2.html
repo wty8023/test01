@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul{
+			list-style: none;
+		}
+		#menu{
+			width: 200px;
+			border: 1px solid #000;
+		}
+		#menu h3{
+			background: #000;
+			color: #fff;
+		}
+		#menu .sub-menu{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<ul id="menu">
+		<li>
+			<h3>管理区</h3>
+			<ul class="sub-menu">
+				<li>001</li>
+				<li>002</li>
+				<li>003</li>
+			</ul>
+		</li>
+		<li>
+			<h3>交流区</h3>
+			<ul class="sub-menu">
+				<li>001</li>
+				<li>002</li>
+				<li>003</li>
+			</ul>
+		</li>
+	</ul>
+	<script>
+		var oMenu = document.getElementById('menu');
+		var aH3 = oMenu.getElementsByTagName('h3');
+		var aUl = oMenu.getElementsByTagName('ul');
+		var aSubMenu = [];
+		for(var i=0; i<aUl.length; i++){
+			if(aUl[i].className == 'sub-menu'){
+				aSubMenu.push(aUl[i]);//将找到的submenu放到aSubMenu中
+			}
+		}
+		for(var i=0; i<aH3.length; i++){
+			aH3[i].index = i;
+			aH3[i].onclick = function(){
+				aSubMenu[this.index].style.display = 'block';
+				
+			};
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>

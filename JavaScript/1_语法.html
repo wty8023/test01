@@ -42,16 +42,7 @@
 //    }else if(age >= 60){
 //        console.log("老年：年龄" + age)
 //    };
-//    function(){
-//
-//        switch (day){
-//        case day == 1:
-//             console.log("星期一");
-//        case day == 2:
-//             console.log("星期二");
-//
-//        }
-//    }
+
 
 
 //周几问题日期
@@ -93,7 +84,7 @@
 
 
 
-//阶层
+//阶乘
 //    var i = 1;
 //    var sum = 1;
 //    do{
@@ -102,6 +93,13 @@
 //    console.log("10!=" +sum);
 //    document.write("10!= " + sum);
 //
+        function factorial(num){
+            if(num == 1){
+                return 1;
+            }
+            num = num * factorial(num-1)
+            //return num = arguments.callee(factorial(num - 1))
+        }
 //
 //    function factorial( y ) {
 //        var i= 1;
@@ -122,23 +120,18 @@
 
 
 
-    for ( var num = 1;num <= 5 ;num++)
-    {
-        for(x = 1;x <= num;x++)
-        {
+    for ( var num = 1;num <= 5 ;num++) {
+        for(x = 1;x<=num;x++) {
             document.write(""+x);
         }
         document.write("<br>");
     }
 
-    for(num = 5;num >= 1;num--)
-    {
-        for(x = 1;x <= num;x++)
-        {
+    for(num = 5;num >= 1;num--) {
+        for(x = 1;x <= num;x++) {
             document.write("&nbsp");
         }
-        for(  var y = 5-num; y >= 0 ; y--)
-        {
+        for(  var y = 5-num; y >= 0 ; y--) {
             document.write(" *");
         }
         document.write("<br>");
@@ -146,11 +139,77 @@
 
 
 
+//方程问题
+//    function f( m ){
+//
+//        var n = 4 * Math.pow(x,2) + 3 * m + 2;
+//        console.log("f(x)=" + n);
+//    }
+//    var m = prompt("请输入m:");
+//    f(m);
 
 
+//最小值问题
+//    function min( x , y){
+//        if( x < y)
+//        console.log("最小值是" + x);
+//        else
+//        console.log("最小值是" + y);
+//    }
+//    var i1 = prompt("请输入x：");
+//    var i2 = prompt("请输入y：");
+//    min(i1,i2);
 
 
+//判断是否能被3 5 7整除
+//    function aa( p ){
+//        if(p>0)
+//        if( p % 3 == 0 && p % 5 == 0 && p % 7 == 0){
+//            //console.log( p + "能被3,5,7整除");
+//            document.write(p +"&nbsp");
+//            return 1;
+//        }else{
+//            //console.log( p +"不能被3,5,7整除")
+//            return 0;
+//        }
+//    }
+//    //var p = prompt("请输入p");
+//    //aa(p);
+//    var j=0;
+//    for(var i = 1;i < 1000; i++)
+//    {
+//        if(aa(i) == 1){
+//            j++;
+//        }else{
+//            continue;
+//        }
+//        if(j % 6 == 0){
+//            document.write("<br>");
+//        }
+//    }
+//
+////判断素数
+//    function prime_num(num) {
+//        for(i = 2 ; i <= Math.sqrt(num) ; i++){
+//            if( num % i ==0 ){
+//                break;
+//            }else{
+//
+//            }
+//        }
+//    }
+//    for(var i =100; i<= 1000; i++){
+//        prime_num(i)
+//    }
+    function CollectDigits(s){
+        for(var i = 0; i <=str.length; i++){
+            if(str.indexOf(i)< "9" && str.indexOf(i)> "1")
 
+        }
+        str.charAt()
+
+    }
+    document.write(collectdigits();
 
 
 
