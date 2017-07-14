@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="btn">click</button>
+        <ul id="ul1">
+            <li class="aa">li1</li>
+            <li class="aa">li2</li>
+            <li class="cc">li3</li>
+        </ul>
+    <script>
+        function $(selector, context){
+            context = context || document;
+            switch(selector.charAt(0)){
+                case "#"://id
+                    return [document.getElementById(selector.substring(1))];
+                    break;
+                case "."://class
+                    return [getByClass(selector.substring(1),context)];
+                    break;
+                default://tag
+                    return context.getElementsByTagName(selector);
+                    break;
+            }
+
+        }
+        function getByClass(className, context) {
+            context = context || document;
+            var result = [];
+            var arr = context.getElementsByTagName('*');
+            var re = new RegExp("\\b"+className+"\\b");
+            for(var i=0; i<arr.length; i++){
+                if(re.test(arr[i].className)){
+                    result.push(arr[i]);
+                }
+            }
+            return result;
+        }
+        var oBtn = $('#btn')[0];
+        oBtn.onclick = function () {
+            alert('11111');
+        };
+        var aLi = $(".aa");
+//        aLi[0].onclick = function(){
+//            alert(this.innerHTML);
+//        };
+        for(var i=0; i<aLi.length; i++){
+            aLi[i].onclick = function () {
+                alert(this.innerHTML);
+            };
+        }
+        console.log(aLi);
+    </script>
+</body>
+</html>
