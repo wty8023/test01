@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 2000px;
+        }
+        #back{
+            height: 100px;
+            width: 100px;
+            background: #ff0000;
+            text-align: center;
+            line-height: 100px;
+            position: fixed;
+            right: 10px;
+            bottom: 100px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="back">回到顶部</div>
+    <script src="jquery-1.11.2.js"></script>
+    <script>
+        $(function(){
+            $("#back").on("click", function () {
+                var target;
+                if(document.documentElement.scrollTop){
+                    target = $("html");
+                }else{
+                    target = $("body");
+                }
+                var timer = setInterval(function(){
+                    var iSorllTop = target.scrollTop();
+                    if(iSorllTop <= 0){
+                        clearInterval(timer);
+                    }
+                    target.scrollTop(iSorllTop-=50);
+                }, 100);
+            });
+        });
+    </script>
+</body>
+</html>
