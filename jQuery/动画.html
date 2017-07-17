@@ -29,7 +29,46 @@
     <script src="jquery-1.11.2.js"></script>
     <script src="jquery.easing.1.3.js"></script>
     <script>
-
+        var $div1 = $("#div1");
+        $("#hide").on("click", function(){
+            $div1.hide(2000);
+        });
+        $("#show").on("click", function(){
+            $div1.show(2000);
+        });
+        $("#toggle").on("click", function(){
+           $div1.toggle(1000);
+        });
+        $("#animate").on("click", function(){
+            $div1.animate({
+                width: 500
+            }, 2000, "easeOutBounce", function(){
+                $div1.animate({
+                    height: 500
+                }, 1000, "easeOutBounce")
+            });
+        });
+        $("#animated").on("click", function(){
+            $("#div1:animated").css("background", "#0f0");
+        });
+        $("#fadeIn").on("click", function(){
+            $div1.fadeIn(1000);
+        });
+        $("#fadeOut").on("click", function(){
+            $div1.fadeOut(1000);
+        });
+        $("#fadeToggle").on("click", function(){
+            $div1.fadeToggle(1000);
+        });
+        $("#slideDown").on("click", function(){
+            $div1.slideDown(1000);
+        });
+        $("#slideUp").on("click", function(){
+            $div1.slideUp(1000);
+        });
+        $("#slideToggle").on("click", function(){
+            $div1.slideToggle(1000);
+        });
     </script>
 </body>
 </html>
