@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>getByClass</title>
 </head>
 <body>
     <button id="btn">click</button>
@@ -19,7 +19,7 @@
                     return [document.getElementById(selector.substring(1))];
                     break;
                 case "."://class
-                    return [getByClass(selector.substring(1),context)];
+                    return getByClass(selector.substring(1),context);
                     break;
                 default://tag
                     return context.getElementsByTagName(selector);
@@ -53,6 +53,7 @@
             }
         }
         console.log(aLi);
+
     </script>
 </body>
 </html>
