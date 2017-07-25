@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>照片墙</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            width: 500px;
+            position: relative;
+            margin: 100px auto;
+        }
+        #container img{
+            border: 5px solid #FFFFFF;
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-box-shadow: 5px 5px 5px rgba(50, 50, 50, .4);
+            -moz-box-shadow: 5px 5px 5px rgba(50, 50, 50, .4);
+            -ms-box-shadow: 5px 5px 5px rgba(50, 50, 50, .4);
+            -o-box-shadow: 5px 5px 5px rgba(50, 50, 50, .4);
+            box-shadow: 5px 5px 5px rgba(50, 50, 50, .4);
+            transition: all 1s ease;
+        }
+        #container img:first-child{
+            -webkit-transform: rotate(30deg);
+            -moz-transform: rotate(30deg);
+            -ms-transform: rotate(30deg);
+            -o-transform: rotate(30deg);
+            transform: rotate(30deg);
+        }
+        #container img:last-child{
+            -webkit-transform: rotate(-20deg);
+            -moz-transform: rotate(-20deg);
+            -ms-transform: rotate(-20deg);
+            -o-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+        }
+        #container img:hover{
+            -webkit-box-shadow: 10px 10px 10px rgba(50, 50, 50, .4);
+            -moz-box-shadow: 10px 10px 10px rgba(50, 50, 50, .4);
+            -ms-box-shadow: 10px 10px 10px rgba(50, 50, 50, .4);
+            -o-box-shadow: 10px 10px 10px rgba(50, 50, 50, .4);
+            box-shadow: 10px 10px 10px rgba(50, 50, 50, .4);
+            z-index: 1;
+            transform: scale(1.2) rotate(0deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="img/img01.jpg" alt=""/>
+        <img src="img/img02.jpg" alt=""/>
+    </div>
+</body>
+</html>
