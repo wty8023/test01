@@ -1,0 +1,12 @@
+#header{
+    height: 100px;
+    background: #CCCCCC;
+    display: flex;
+}
+#menu{
+    width: 40px;
+    height: 46px;
+    margin-top: 27px;
+    margin-left: 10px;
+    cursor: pointer;
+}

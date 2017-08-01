@@ -1,0 +1,74 @@
+#banner .wrapper{
+    height: 460px;
+    background: #31333e;
+    position: relative;
+    overflow: hidden;
+}
+#banner .arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+}
+#left{
+    margin-left: 80px;
+}
+#right{
+    margin-right: 80px;
+    right: 0;
+}
+#banner p{
+    color: white;
+    font-size: 30px;
+    margin-left: 260px;
+    margin-top: 48px;
+}
+#banner .wrapper span a{
+    display: block;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    float: right;
+    margin-right: 240px;
+    color: #FFFFFF;
+    background: url("../img/learn%20more.png") no-repeat;
+}
+#img img{
+    /*display: block;*/
+    margin-left: 260px;
+}
+/*banner½áÊø*/
+/*news¿ªÊ¼*/
+#news .wrapper{
+    height: 492px;
+
+}
+#news .img{
+    float: left;
+    margin-top: 86px;
+    width: 425px;
+    height: 492px;
+    text-align: center;
+}
+#news .web-design img{
+    width: 166px;
+    height: 156px;
+}
+#news .new{
+    line-height: 30px;
+    font-size: 15px;
+    width: 290px;
+    margin: 10px auto;
+}
+#news .read a{
+    display: block;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #00A5FF;
+}
+#news .read a:hover{
+    color: #626262;
+}
