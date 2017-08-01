@@ -62,6 +62,7 @@ body{
     width: 80%;
     height: 220px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .mark{
     background-size: contain;
@@ -70,17 +71,21 @@ body{
     width : 350px;
     float: left;
     margin-left: 25%;
+    padding-top: 80px;
     background: url("../img/rewards_bg.png") 0 0 no-repeat;
 }
 .mark p{
     color: #FFFFFF;
-    display: flex;
+    /*display: flex;*/
+    position: relative;
+    left: 98px;
 }
 .mark-logo{
     width: 160px;
     height: 40px;
     background: url("../img/rewards_logo_20170209.svg") 0 0 no-repeat;
     background-size: contain;
+    margin: 0 auto;
 }
 .content{
     overflow: hidden;
