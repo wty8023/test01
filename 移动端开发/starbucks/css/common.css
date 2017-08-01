@@ -8,7 +8,7 @@ a{
 li{
     list-style: none;
 }
-.clear::after{
+.clearfix::after{
     content: '';
     display: block;
     clear: both;

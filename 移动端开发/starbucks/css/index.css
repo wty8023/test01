@@ -1,12 +1,128 @@
+body{
+    height: 2000px;
+}
 #header{
     height: 100px;
-    background: #CCCCCC;
     display: flex;
 }
 #menu{
-    width: 40px;
+    width: 82px;
     height: 46px;
     margin-top: 27px;
-    margin-left: 10px;
+    margin-left: 20px;
     cursor: pointer;
 }
+#header span{
+    display: block;
+    padding-left: 2px;
+    font-size: 14px;
+}
+#club{
+    width: 82px;
+    height: 46px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 29px;
+    transition: all 1s ease;
+}
+#logo{
+    flex: 1;
+    text-align: center;
+}
+#logo img{
+    width: 73px;
+    height: 73px;
+    margin-top: 8px;
+}
+#club a{
+    color: #b89f7a;
+    font-weight: bold;
+}
+#banner{
+    width: 100%;
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    display: block;
+}
+#banner img:nth-child(2){
+    display: none;
+}
+#more{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    color: #FFFFFF;
+}
+.rewards{
+    background: #000000;
+}
+.container{
+    width: 80%;
+    height: 220px;
+    margin: 0 auto;
+}
+.mark{
+    background-size: contain;
+    flex: 0 0 350px;
+    height: 220px;
+    width : 350px;
+    float: left;
+    margin-left: 25%;
+    background: url("../img/rewards_bg.png") 0 0 no-repeat;
+}
+.mark p{
+    color: #FFFFFF;
+    display: flex;
+}
+.mark-logo{
+    width: 160px;
+    height: 40px;
+    background: url("../img/rewards_logo_20170209.svg") 0 0 no-repeat;
+    background-size: contain;
+}
+.content{
+    overflow: hidden;
+}
+.content p{
+    color: #FFFFFF;
+    vertical-align: middle;
+    line-height: 1.8;
+    margin-bottom: 7px;
+}
+.content p:nth-child(1){
+    line-height: 28px;
+    font-size: 28px;
+    margin-top: 30px;
+}
+.content .btn{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 18px;
+    font-size: 14px;
+    padding: 14px 40px;
+    margin: 7px 14px 7px 0;
+    color: #b89f7a;
+    border: 2px solid #b89f7a;
+}
+.content .btn:hover{
+    background: #b89f7a;
+    color: #FFFFFF;
+}
+.content span{
+    color: #b89f7a;
+    position: relative;
+    right: -50px;
+    top: 20px;
+}
+@media (max-width: 991px) {
+    #banner img:nth-child(1){
+        display: none;
+    }
+    #banner img:nth-child(2){
+        display: block;
+    }
+}
+
