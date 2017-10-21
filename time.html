@@ -5,6 +5,26 @@
     <title></title>
 </head>
 <body>
+<script>
+    /*var a=0;
+//    do{
+//        var timer = setTimeout(function(){
+//            console.log(a++);
+//        },1000);
+//        clearTimeout(timer);
+//    }while(a == 1000);
+    for(a=0; a < 5000; a++){
+        var timer = setTimeout(function(){
+        console.log(a++);
+        },1000);
+        clearTimeout(timer);
+    }*/
+    function fn(){
+        console.log(111);
+        setTimeout(arguments.callee,1000)
+    }
+    fn();
 
+</script>
 </body>
 </html>
