@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,GAAG;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,EAPN,OAAO",
+"sources": ["../../../../../%E7%8E%8B%E5%A4%A9%E7%A6%B9/WebstormProjects/test01/sass/scss/index.scss"],
+"names": [],
+"file": "index.css"
+}
