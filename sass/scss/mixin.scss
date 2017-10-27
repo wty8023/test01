@@ -1,0 +1,8 @@
+@mixin test($c, $f, $d){
+  background: $d;
+  color: $c;
+  font-size: $f;
+}
+body{
+  @include test(#00ae65,12px,#00aeff)
+}
