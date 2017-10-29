@@ -3,19 +3,10 @@
   <component name="ChangeListManager">
     <list id="087843a7-f827-47f6-9e05-7f8c14ab4d44" name="Failed commit: Default" comment="jQuery了解与练习" />
     <list default="true" id="e0d3081f-ea34-45a7-a480-772795ee2398" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/changeclass.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/changestyle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/vue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/mixin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/scss/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/scss/extend.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/scss/mixin.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/cart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/cart2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/search.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/css/index.css" afterPath="$PROJECT_DIR$/sass/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/css/index.css.map" afterPath="$PROJECT_DIR$/sass/css/index.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/scss/index.scss" afterPath="$PROJECT_DIR$/sass/scss/index.scss" />
     </list>
     <ignored path="test01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,21 +35,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="changeclass.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Vue/changeclass.html">
+          <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Vue/search.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1044">
-                  <caret line="36" column="13" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="36" selection-end-column="13" />
+                <state relative-caret-position="-145">
+                  <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="changestyle.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Vue/changestyle.html">
+          <file leaf-file-name="cart.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Vue/cart.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+                <state relative-caret-position="406">
+                  <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -67,12 +58,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Vue/test.html">
+        <leaf>
+          <file leaf-file-name="cart2.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Vue/cart2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="410">
-                  <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+                <state relative-caret-position="609">
+                  <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -98,9 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css3/照片墙/ziji.html" />
-        <option value="$PROJECT_DIR$/css3/照片墙/ziji.js" />
-        <option value="$PROJECT_DIR$/css3/照片墙/index.html" />
         <option value="$PROJECT_DIR$/html5/(^o^)/~.html" />
         <option value="$PROJECT_DIR$/html5/《冈仁波齐》先导预告片_冈仁波齐_新浪视频 (1).flv" />
         <option value="$PROJECT_DIR$/html5/视频音频.html" />
@@ -149,6 +137,9 @@
         <option value="$PROJECT_DIR$/Vue/test.html" />
         <option value="$PROJECT_DIR$/Vue/change.html" />
         <option value="$PROJECT_DIR$/Vue/changestyle.html" />
+        <option value="$PROJECT_DIR$/Vue/search.html" />
+        <option value="$PROJECT_DIR$/Vue/cart2.html" />
+        <option value="$PROJECT_DIR$/Vue/cart.html" />
       </list>
     </option>
   </component>
@@ -166,10 +157,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1932" />
-    <option name="height" value="1066" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -189,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,12 +190,18 @@
             <path>
               <item name="test01" type="b2602c69:ProjectViewProjectNode" />
               <item name="test01" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test01" type="462c0819:PsiDirectoryNode" />
               <item name="Vue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -314,7 +310,8 @@
       <workItem from="1508831505608" duration="615000" />
       <workItem from="1508853939315" duration="621000" />
       <workItem from="1508996123249" duration="6337000" />
-      <workItem from="1509071548965" duration="16000" />
+      <workItem from="1509071548965" duration="759000" />
+      <workItem from="1509238349203" duration="8360000" />
     </task>
     <task id="LOCAL-00001" summary="编写hello world html文件">
       <created>1491638781561</created>
@@ -575,14 +572,22 @@
       <option name="project" value="LOCAL" />
       <updated>1508565910525</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Vue 入门">
+      <created>1509071613163</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1509071613163</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15929000" />
+    <option name="totallyTimeSpent" value="25032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09220232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -655,7 +660,8 @@
     <MESSAGE value="移动端开发注意事项 星巴克" />
     <MESSAGE value="test sogo" />
     <MESSAGE value="scss 练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="scss 练习" />
+    <MESSAGE value="Vue 入门" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vue 入门" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -666,27 +672,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirejs/弹出层/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirejs/轮播图/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirejs/轮播图/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirejs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1020,8 +1005,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue/changestyle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="460">
+          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/cart2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding />
         </state>
       </provider>
