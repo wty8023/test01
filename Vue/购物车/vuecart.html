@@ -29,7 +29,7 @@
             <tbody id="product-list">
             <tr v-for="product in productList">
                 <td>
-                    <input type="checkbox">
+                    <input type="checkbox" v-model="show" @click="checked(obj)">
                 </td>
                 <td>
                     <img :src="product.productImg" alt="" width="100">
@@ -44,9 +44,9 @@
                 </td>
                 <td class="price">{{product.productPrice}}</td>
                 <td>
-                    <button class="sub">-</button>
+                    <button class="sub" @click="sub(product)">-</button>
                     <input type="text" :value="product.productQuentity">
-                    <button class="add">+</button>
+                    <button class="add" @click="add(product)">+</button>
                 </td>
                 <td class="total-price">{{product.productPrice * product.productQuentity}}</td>
                 <td>
@@ -58,7 +58,7 @@
             <tr><td colspan="6">
             </td>
                 <td>
-                    总计：<span id="total">0</span>
+                    总计：<span id="total">{{}}</span>
                 </td>
                 <td>
                     <button>结账</button>
@@ -72,12 +72,36 @@
         new Vue({
             el:'#app',
             data:{
-                productList:[]
+                productList:[],
+                total:[],
+                show:false
             },
             mounted:function () {
                 axios.get('cart.json').then((res)=>{
                     this.productList = res.data.result.productList;
                 });
+            },
+            methods:{
+                add(obj){
+                    obj.productQuentity++;
+                },
+                sub(obj){
+                    if(obj.productQuentity > 0){
+                        obj.productQuentity--;
+                    }
+                },
+                checked(obj){
+                    if(!obj.show){
+                        obj.total.push(obj.productPrice * obj.productQuentity);
+                        console.log(obj.total);
+                    }else{
+                        obj.arr = [];
+                        obj.facility.splice(1);
+                    }
+                },
+                total(){
+
+                }
             }
         })
     </script>

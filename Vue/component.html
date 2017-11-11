@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <!--<demo1 v-bind:my-msg="c" msg="aaaa"></demo1>
+        <demo1 :my-msg="b"></demo1>-->
+        <demo1>
+            <p slot="title1">pppppp</p>
+        </demo1>
+    </div>
+    <!--<div id="app2">
+        <demo></demo>
+    </div>-->
+<script src="vue.js"></script>
+<script type="text/x-template" id="temp">
+    <div>
+        <slot name="title">
+            <h1>11111</h1>
+            sadsdsa
+        </slot>
+        aaaaaaaa
+        <slot name="title1">
+            <h1>ppppp</h1>
+        </slot>
+    </div>
+</script>
+<script>
+    /*Vue.component('demo',{
+        template:'<div><h1>hhhh</h1><p>ppppp</p></div>'
+    });*/
+    new Vue({
+        el:'#app',
+        data:{
+            b:'bbbb',
+            c:'cccc'
+        },
+        components:{
+            demo1:{
+//                template:'<h1>{{myMsg}},{{msg}}</h1>',
+                template:'#temp',
+                props:['myMsg','msg']
+            },
+        }
+    });
+    /*new Vue({
+        el:'#app2'
+    })*/
+</script>
+</body>
+</html>
